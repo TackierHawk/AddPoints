@@ -1,0 +1,57 @@
+---- Part Spawns ----
+-- Walk Area Parts --
+local floor1 = Instance.new("Part")
+local floor2 = Instance.new("Part")
+
+-- Sell/Buy Part --
+local wcbuywaypoint = Instance.new("Part")
+local fbuywaypoint = Instance.new("Part")
+
+-- Sell Waypoints
+local waypoint1 = Instance.new("Part")
+local waypoint2 = Instance.new("Part")
+
+-- Walk Area --
+floor1.Parent = workspace
+floor1.Anchored = true
+floor1.CanCollide = true
+floor1.Size = Vector3.new(2024,0,2024)
+floor1.Position = Vector3.new(3219.08, -32.6046, 3183.39)
+
+floor2.Parent = workspace
+floor2.Anchored = true
+floor2.CanCollide = true
+floor2.Size = Vector3.new(2024,0,2024)
+floor2.Position = Vector3.new(2214.02, -32.766, 2637.77)
+
+-- Sell/Buy Waypoints --
+wcbuywaypoint.Parent = workspace
+wcbuywaypoint.Name = "wcbuywaypoint"
+wcbuywaypoint.Anchored = true
+wcbuywaypoint.CanCollide = false
+wcbuywaypoint.Size = Vector3.new(1,1,1)
+wcbuywaypoint.Position = Vector3.new(3751.48, 11.1088, 3743.64)
+
+fbuywaypoint.Parent = workspace
+fbuywaypoint.Name = "fbuywaypoint"
+fbuywaypoint.Anchored = true
+fbuywaypoint.CanCollide = false
+fbuywaypoint.Size = Vector3.new(1,1,1)
+fbuywaypoint.Position = Vector3.new(1152.35, 11.1088, 1900.19)
+
+-- Sell Waypoints --
+waypoint1.Parent = workspace
+waypoint1.Name = "wcSell"
+waypoint1.Anchored = true
+waypoint1.CanCollide = false
+waypoint1.Transparency = 0.5
+waypoint1.Size = Vector3.new(1,1,1)
+waypoint1.Position = Vector3.new(3721.19, 12, 3741.17)
+
+waypoint2.Parent = workspace
+waypoint2.Name = "fenSell"
+waypoint2.Anchored = true
+waypoint2.CanCollide = false
+waypoint2.Transparency = 0.5
+waypoint2.Size = Vector3.new(1,1,1)
+waypoint2.Position = Vector3.new(1145.41, 11, 1903.08)
