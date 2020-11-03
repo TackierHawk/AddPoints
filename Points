@@ -48,8 +48,8 @@ waypoint1.Size = Vector3.new(1,1,1)
 waypoint1.Position = Vector3.new(3721.19, 12, 3741.17)
 
 waypoint2.Parent = workspace
-waypoint2.Name = "fenSell"
+waypoint2.Name = "fwSell"
 waypoint2.Anchored = true
 waypoint2.CanCollide = false
 waypoint2.Size = Vector3.new(1,1,1)
-waypoint2.Position = Vector3.new(1145.41, 11, 1903.08)
+waypoint2.Position = Vector3.new(1144.46, 11.1106, 1901.19)
