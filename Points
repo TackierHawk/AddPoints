@@ -36,7 +36,7 @@ wall2.Parent = workspace
 wall2.Anchored = true
 wall2.CanCollide = true
 wall2.Transparency = 0.5
-wall2.Rotation = Vector3.new(0, 90, 0)
+wall2.Rotation = Vector3.new(0, 0, 0)
 wall2.Size = Vector3.new(2, 41, 80)
 wall2.Position = Vector3.new(3724.9, 20, 3629.07)
 
