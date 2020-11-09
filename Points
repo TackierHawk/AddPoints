@@ -8,6 +8,8 @@ local wall2 = Instance.new("Part")
 local wall3 = Instance.new("Part")
 local backboard = Instance.new("Part")
 
+game.Workspace.Scenery.Props:Destroy()
+
 -- Sell/Buy Part --
 local wcbuywaypoint = Instance.new("Part")
 local fbuywaypoint = Instance.new("Part")
