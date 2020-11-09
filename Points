@@ -67,7 +67,7 @@ floor3.Parent = workspace
 floor3.Anchored = true
 floor3.CanCollide = true
 floor3.Size = Vector3.new(2024,0,2024)
-floor3.Position = Vector3.new(1410.23, 2.06712, 2018.69)
+floor3.Position = Vector3.new(1410.23, -32.766, 2018.69)
 
 -- Sell/Buy Waypoints --
 wcbuywaypoint.Parent = workspace
