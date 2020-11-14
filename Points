@@ -100,3 +100,6 @@ waypoint2.Anchored = true
 waypoint2.CanCollide = false
 waypoint2.Size = Vector3.new(1,1,1)
 waypoint2.Position = Vector3.new(3735.09, 16.4997, 3576.6)
+
+wait(2)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TackierHawk/Path1/main/WC%20Buy", true))()
